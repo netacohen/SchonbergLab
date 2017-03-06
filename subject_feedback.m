@@ -75,7 +75,7 @@ LookingAtScreen = cell2mat(LookingAtScreen);
 
 %set text size of the dialod box
 set(groot,'defaultUicontrolFontSize', 16)
-Feeling1stDay = myinputdlg('How do you feel on a scale of 1 (very bad) to 6 (very good)? ','Experience',1);
+Feeling1stDay = myinputdlg('How did you felt at the end of the 1st day on a scale of 1 (very bad) to 6 (very good)? ','Experience',1);
 Feeling1stDay = cell2mat(Feeling1stDay);
 
 %set text size of the dialod box
